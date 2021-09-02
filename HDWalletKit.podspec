@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/essentiaone/HDWallet.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           = { 'impl' => 'pavlo.bojkoo@gmail.com' }
-  s.source           = { :git => 'https://github.com/essentiaone/HDWallet.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hankjojo/HDWallet.git', :tag => s.version.to_s }
 
   s.swift_version= '5'
   s.static_framework  = true
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.source_files = 'HDWalletKit/**/*.{swift}'
 
   s.dependency 'secp256k1.swift', '~> 0.1.4'
-  s.dependency 'CryptoSwift', '~> 1.0.0'
+  s.dependency 'CryptoSwift', '~> 1.4.0'
   
 end
